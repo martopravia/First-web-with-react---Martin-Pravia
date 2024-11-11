@@ -17,6 +17,9 @@ const Home = () => {
     button: "Ver paquetes de viajes!",
   };
 
+  const footer = {
+    title: "Tu Agencia Digital © 2024",
+  };
   return (
     <>
       <Navbar />
@@ -25,7 +28,7 @@ const Home = () => {
         <JumbotronText {...jumbotronText} />
         <Cards />
       </div>
-      <Footer />
+      <Footer {...footer} />
     </>
   );
 };
