@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./NavBar";
 import JumbotronText from "./JumbotronText";
 import Cards from "./Cards";
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -13,9 +14,8 @@ const Home = () => {
       <div className="container">
         <JumbotronText />
         <Cards />
-        <div className="cards">Prueba</div>
-        <div className="footer">Prueba</div>
       </div>
+      <Footer />
     </>
   );
 };
