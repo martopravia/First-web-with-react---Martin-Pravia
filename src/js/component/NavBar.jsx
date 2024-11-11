@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg bg-dark ">
       <div class="col-md-10 container bg-secondary-subtle m-auto">
         <a class="navbar-brand text-light" href="#">
-          Start Bootstrap
+          Tu Agencia Digital
         </a>
         <button
           class="navbar-toggler"
@@ -26,22 +26,22 @@ const Navbar = () => {
                 aria-current="page"
                 href="#"
               >
-                Home
+                Inicio
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">
-                About
+                Quienes somos
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">
-                Services
+                Paquetes
               </a>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-light" aria-disabled="true">
-                Contact
+                Contáctanos
               </a>
             </li>
           </ul>

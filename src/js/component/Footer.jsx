@@ -7,7 +7,7 @@ const Footer = () => {
       style={{ width: "100%" }}
     >
       <div className="container">
-        <p className="mb-0">Copyright © Your Website 2019</p>
+        <p className="mb-0">Tu Agencia Digital © 2024</p>
       </div>
     </footer>
   );

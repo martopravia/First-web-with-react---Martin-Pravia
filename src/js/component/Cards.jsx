@@ -2,26 +2,26 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="row row-cols-1  g-4 text-center">
+    <div className="row row-cols-1  g-4 text-center mb-4">
       <div className="col-3">
         <div className="card h-100">
           <img
-            src="https://picsum.photos/500/325"
+            src="https://picsum.photos/id/16/500/325"
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Disfruta del Caribe</h5>
             <p className="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-              numquam aliquid sit quaerat enim totam architecto necessitatibus
-              iusto consequuntur voluptatem.
+              Explora playas de arena blanca, aguas cristalinas y una
+              experiencia inolvidable. Relájate bajo el sol o sumérgete en
+              aventuras únicas. ¡El Caribe te espera!
             </p>
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
               <button type="button" class="btn btn-primary">
-                Find Out More!
+                Lo quiero!
               </button>
             </small>
           </div>
@@ -30,22 +30,22 @@ const Cards = () => {
       <div className="col-3">
         <div className="card h-100">
           <img
-            src="https://picsum.photos/500/325"
+            src="https://picsum.photos/id/29/500/325"
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Cordillera de los Andes</h5>
             <p className="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-              iste dolorem quaerat sint unde similique, vitae delectus cumque
-              fugit debitis!
+              Sumérgete en paisajes majestuosos, montañas imponentes y
+              naturaleza pura. Vive la emoción del trekking, la nieve y el aire
+              fresco. ¡La Cordillera te espera!
             </p>
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
               <button type="button" class="btn btn-primary">
-                Find Out More!
+                Quiero saber mas!
               </button>
             </small>
           </div>
@@ -54,22 +54,23 @@ const Cards = () => {
       <div className="col-3">
         <div className="card h-100">
           <img
-            src="https://picsum.photos/500/325"
+            src="https://picsum.photos/id/288/500/325"
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Estocolmo</h5>
             <p className="card-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum sed fugiat consectetur? Distinctio aliquid totam sequi
-              dignissimos vitae culpa ullam.
+              Canales encantadores, arquitectura histórica y la vibrante cultura
+              escandinava te esperan. Paseá por calles adoquinadas, disfrutá de
+              la gastronomía nórdica y viví la esencia de esta ciudad única.
+              ¡Comprá tu pasaje y descubrí Estocolmo!
             </p>
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
               <button type="button" class="btn btn-primary">
-                Find Out More!
+                Quiero!
               </button>
             </small>
           </div>
@@ -78,22 +79,23 @@ const Cards = () => {
       <div className="col-3">
         <div className="card h-100">
           <img
-            src="https://picsum.photos/500/325"
+            src="https://picsum.photos/id/299/500/325"
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">New York</h5>
             <p className="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              voluptates aperiam nostrum laudantium tempore quaerat voluptate
-              ullam natus earum assumenda.
+              La ciudad que nunca duerme te espera con su energía vibrante.
+              Rascacielos imponentes, arte en cada esquina y sabores del mundo
+              entero. Paseá por Central Park, viví el Times Square y sentí el
+              ritmo de la Gran Manzana. ¡Nueva York te llama, vení a vivirla!
             </p>
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
               <button type="button" class="btn btn-primary">
-                Find Out More!
+                Quedan pasajes?
               </button>
             </small>
           </div>
