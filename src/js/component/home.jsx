@@ -18,11 +18,21 @@ const Home = () => {
   };
 
   const footer = {
-    title: "Tu Agencia Digital © 2024",
+    title: "Tu Agencia Digital © ",
+    year: "2024",
   };
+
+  const navBar = {
+    title: "Tu Agencia Digital",
+    botonInicio: "Inicio",
+    botonQuienes: "Quienes somos",
+    botonPaquetes: "Paquetes",
+    botonContactenos: "Contáctenos",
+  };
+
   return (
     <>
-      <Navbar />
+      <Navbar {...navBar} />
 
       <div className="container">
         <JumbotronText {...jumbotronText} />

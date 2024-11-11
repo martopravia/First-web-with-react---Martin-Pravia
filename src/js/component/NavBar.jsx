@@ -1,11 +1,17 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({
+  title,
+  botonInicio,
+  botonQuienes,
+  botonPaquetes,
+  botonContactenos,
+}) => {
   return (
     <nav class="navbar navbar-expand-lg bg-dark ">
       <div class="col-md-10 container bg-secondary-subtle m-auto">
         <a class="navbar-brand text-light" href="#">
-          Tu Agencia Digital
+          {title}
         </a>
         <button
           class="navbar-toggler"
@@ -26,22 +32,22 @@ const Navbar = () => {
                 aria-current="page"
                 href="#"
               >
-                Inicio
+                {botonInicio}
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">
-                Quienes somos
+                {botonQuienes}
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">
-                Paquetes
+                {botonPaquetes}
               </a>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-light" aria-disabled="true">
-                Contáctanos
+                {botonContactenos}
               </a>
             </li>
           </ul>
