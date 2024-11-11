@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "./NavBar";
+import JumbotronText from "./JumbotronText";
 
 //create your first component
 const Home = () => {
@@ -8,11 +9,10 @@ const Home = () => {
     <>
       <Navbar />
       <div className="container">
-        Prueba
-        <div className="jumbotron">Prueba</div>
+        <JumbotronText />
         <div className="cards">Prueba</div>
+        <div className="footer">Prueba</div>
       </div>
-      <div className="footer">Prueba</div>
     </>
   );
 };
