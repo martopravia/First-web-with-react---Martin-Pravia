@@ -5,7 +5,6 @@ import JumbotronText from "./JumbotronText";
 import Cards from "./Cards";
 import Footer from "./Footer";
 
-//create your first component
 const Home = () => {
   const jumbotronText = {
     title: "Bienvenido al viaje de tu vida!",
